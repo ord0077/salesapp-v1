@@ -232,7 +232,7 @@
 <td>
 <input type="checkbox" name="cd[]" value="designation">
 </td>
-<th>Designatioin</th>
+<th>Designation</th>
 <td>{{$customer_details->designation}}</td>
 </tr>
 
@@ -583,16 +583,10 @@
     <tr>
             <td><input type="checkbox" name="crs[]" value="crs_city_txt"></td>
 
-    <th>Town/City/Province </th>
+    <th>Town/City/Province/County/State </th>
     <td class="td_print">{{$crs_details->crs_city_txt}}</td>
     </tr>
     
-    <tr>
-            <td><input type="checkbox" name="crs[]" value="crs_state"></td>
-
-    <th>County/State </th>
-    <td class="td_print">{{$crs_details->crs_state}}</td>
-    </tr>
     
     
     <tr>
@@ -623,15 +617,10 @@
         
         <tr>
           <td><input type="checkbox" name="crs[]" value="mailing_city"></td>
-        <th>Town/City/Province </th>
+        <th>Town/City/Province/County/State </th>
         <td class="td_print">{{$crs_details->mailing_city}}</td>
         </tr>
           
-          <tr>
-            <td><input type="checkbox" name="crs[]" value="mailing_state"></td>
-          <th>County/State </th>
-          <td class="td_print">{{$crs_details->mailing_state}}</td>
-          </tr>
       
           <tr>
             <td><input type="checkbox" name="crs[]" value="mailing_country"></td>
@@ -859,7 +848,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="nats">
 </td>
-<th>Nationilty </th>
+<th>Nationality </th>
 <td class="td_print_fatca">{{$fatca_details->nats}}</td>
 </tr>
 @endif
@@ -868,7 +857,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="green_card">
 </td>
-<th>Green Card</th>
+<th>US Green Card/US Permanent Residency</th>
 <td class="td_print_fatca">{{$fatca_details->green_card}}</td>
 </tr>
 
@@ -884,7 +873,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="co_ma">
 </td>
-<th>Care Of Mailing Address</th>
+<th>Overseas Mailing Address</th>
 <td class="td_print_fatca">{{$fatca_details->co_ma}}</td>
 </tr>
 
@@ -901,7 +890,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="attor">
 </td>
-<th>Power of Attorney</th>
+<th>Given Power of Attorney to any person residing overseas</th>
 <td class="td_print_fatca">{{$fatca_details->attor}}</td>
 </tr>
 
@@ -911,7 +900,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="attor_addr">
 </td>
-<th>Power of Attorney</th>
+<th>Given Power of Attorney to any person residing overseas</th>
 <td class="td_print_fatca">{{$fatca_details->attor_addr}}</td>
 </tr>
 @endif
@@ -921,7 +910,7 @@
 <td>
 <input type="checkbox" name="fd[]" value="trans_fund">
 </td>
-<th>Transfer Funds </th>
+<th>Standing Instruction</th>
 <td>{{$fatca_details->trans_fund}}</td>
 </tr>
 

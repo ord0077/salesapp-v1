@@ -252,12 +252,6 @@ $ext = pathinfo($cdn[1], PATHINFO_EXTENSION);
 <td><input class="form-control" type="text" name="crs[{{$crs[0]}}]" value="{{$crs[1]}}"></td>
 </tr>
 
-{{-- 
-@elseif($crs[0] == 'crs_state')
-<tr>
-<th>County/State </th>
-<td><input class="form-control" type="text" name="crs[{{$crs[0]}}]" value="{{$crs[1]}}"></td>
-</tr> --}}
 
 @elseif($crs[0] == 'crs_zipcode')
 <tr>
@@ -286,12 +280,6 @@ $ext = pathinfo($cdn[1], PATHINFO_EXTENSION);
 <td><input class="form-control" type="text" name="crs[{{$crs[0]}}]" value="{{$crs[1]}}"></td>
 </tr>
 
-{{-- 
-@elseif($crs[0] == 'mailing_state')
-<tr>
-<th>County/State </th>
-<td><input class="form-control" type="text" name="crs[{{$crs[0]}}]" value="{{$crs[1]}}"></td>
-</tr> --}}
 
 
 @elseif($crs[0] == 'mailing_country')

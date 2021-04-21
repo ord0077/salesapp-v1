@@ -666,13 +666,7 @@ td.td_print_action{padding-left: 130px!important;}
     <th>Town/City/Province/Count/State</th>
     <td class="td_print">{{$crs_details->crs_city_txt}}</td>
     </tr>
-    
-    {{-- <tr>
-    <td><input type="checkbox" name="crs[]" value="crs_state"></td>
 
-    <th>County/State </th>
-    <td class="td_print">{{$crs_details->crs_state}}</td>
-    </tr> --}}
     
     
     <tr>
@@ -706,12 +700,7 @@ td.td_print_action{padding-left: 130px!important;}
         <th>Town/City/Province/Count/State</th>
         <td class="td_print">{{$crs_details->mailing_city}}</td>
         </tr>
-          
-          {{-- <tr>
-            <td><input type="checkbox" name="crs[]" value="mailing_state"></td>
-          <th>County/State </th>
-          <td class="td_print">{{$crs_details->mailing_state}}</td>
-          </tr> --}}
+
       
           <tr>
             <td><input type="checkbox" name="crs[]" value="mailing_country"></td>
